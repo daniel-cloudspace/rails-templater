@@ -26,6 +26,6 @@ stategies << lambda do
   END
 
   inject_into_file 'app/views/layouts/application.html.haml', application_layout_modification, 
-	:after => '%body\n'
+	:after => '%body'
 end
 
