@@ -1,5 +1,32 @@
 # Rails Templater
 
+## Guidelines
+* recipes should run a generator to create tests
+* recipes should work in combination with all permutations of recipes
+* recipes should use generators wherever possible (write generators if they dont exist yet, try not to use the templates/ directory)
+* 
+
+## TODOs:
+Generators that need to be written:
+* devise (1/2 done)
+* omniauth + single sign-on
+* scaffolding
+* tagging
+* favoriting
+* voting
+* rating
+* commenting
+* jquery animations (?)
+* carousel (javascript)
+* autocomplete
+* mailing lists
+* static pages: about us, terms of use, contact us
+* will_paginate
+* acts_as_tree
+* google analytics
+* benchmarking
+* submit to hudson
+
 This is a template which allows creating new Ruby on Rails 3 applications quickly using some opinionated defaults. It is inspired by ffmike's [BigOldRailsTemplate](http://github.com/ffmike/BigOldRailsTemplate) Rails 2 template project. To use templater with your Rails apps, use the -m switch when creating your application:
 
     rails new application_name -JOT -m templater.rb
