@@ -7,7 +7,6 @@
 * 
 
 ## TODOs:
-Generators that need to be written:
 * devise (1/2 done)
 * omniauth + single sign-on
 * scaffolding
