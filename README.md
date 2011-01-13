@@ -10,6 +10,7 @@
 * devise (1/2 done)
 * omniauth + single sign-on
 * scaffolding
+* activescaffold
 * tagging
 * favoriting
 * voting
